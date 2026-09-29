@@ -16,7 +16,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-const API_URL = "http://localhost:5000/api/transactions";
+const API_URL = "https://expense-tracker-0jjc.onrender.com/api/transactions";
 
 function App() {
   const [showProfile, setShowProfile] = useState(false);
